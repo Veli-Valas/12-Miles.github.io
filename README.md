@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<!-- Määrittää dokumentin tyypin HTML5:ksi -->
+<!-- -->
 <html lang="en">
 <head>
-    <!-- Määrittää merkistökoodauksen UTF-8:ksi -->
+    <!--  -->
     <meta charset="UTF-8">
-    <!-- Asettaa näkymäportin asetukset, jotta sivu skaalautuu oikein eri laitteilla -->
+    <!-- -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Määrittää sivun otsikon, joka näkyy selaimen välilehdessä -->
-    <title>12 miles below</title>
-    <!-- Linkittää ulkoisen CSS-tyylitiedoston -->
+    <!-- Sivuston otsikko -->
+    <title>12 miles below fanpage</title>
+    <!--  ulkoisen CSS-tyylitiedoston -->
     <link rel="stylesheet" href="12milebelow.css">
-    <!-- Linkittää ulkoisen Font Awesome -kirjaston ikonien käyttöä varten -->
+    <!-- Logo pankki etta tietaa mista ottaa ne -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <!-- Sivun yläosa, joka sisältää navigointivalikon -->
+    <!--  -->
     <header id="etusivu">
         <nav>
             <!-- Linkki Amazon-sivulle, jossa on kirjan kuva ja teksti "uusin kirja" -->
@@ -66,7 +66,7 @@
             </div>
         </div>
         <div class="Copyright">
-            <!-- lisää tekijanoikeustiedot -->
+            <!-- lisaa tekijanoikeustiedot -->
             <p>Copyright &copy;2024; Designed by Valtteri</p>
         </div>
         <div>
