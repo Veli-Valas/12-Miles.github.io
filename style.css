@@ -29,6 +29,11 @@ header {
     flex-grow: 1;
 }
 
+.grid-teksti1 {
+    background-color: white; /* Lisätty taustaväri */
+    padding: 20px;
+}
+
 .grid-kuva img {
     width: 100%;
     max-width: 300px; 
@@ -77,6 +82,20 @@ footer {
     color: #c918f5; 
 }
 
-@media (max-width: 1200px) 
-@media (max-width: 768px) 
-@media (max-width: 480px) 
+@media (max-width: 1200px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
