@@ -31,7 +31,7 @@
     <section class="grid-container" id="paasivu">
         <div class="grid-teksti1">
            <!-- Otsikko ja kappale, joka kuvaa tarinan taustaa -->
-           <h2>12 miles below</h2>
+           <h1>12 miles below</h2>
               <p>Aarimmaiset pakkaset tukahduttavat maan pinnan. Muinaisten aikojen jaatyneet rakenteet ulottuvat laajojen jaatikoiden halki. Selviytyjat vartioivat tarkoin kaikkea teknologiaa, joka loydetaan naiden rakenteiden sisalta.
  Ainoa pakotie tappavasta ilmastosta on pinnan alla, mutta se ei tarkoita, etta siella olisi turvallista...
                 Hirviomaiset koneet piileskelevat syvyyksissa. Mielipuoliset puolijumalat kayvat sotaa niita vastaan, kuollen yha uudelleen, kohdellen kaikkea kuin leikkia. </p>

@@ -1,9 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/*maaraa koko bodille vaikuttavat asiat*/
 body { 
     font-family: Garamond, Arial, sans-serif;
     background-color: rgb(139, 0, 0); 
@@ -11,13 +6,13 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-
+/*maarittaa header asiat*/
 header {
     background-color: #333;
     padding: 20px;
     text-align: center;
 }
-
+/*maarittaa saarakkeet*/
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -28,19 +23,19 @@ header {
     align-items: start;
     flex-grow: 1;
 }
-
+/*asettaa tesktin oikeille paikoille*/
 .grid-teksti1 {
-    background-color: white; /* Lisätty taustaväri */
+    background-color: white; 
     padding: 20px;
 }
-
+/*asettaa kuvan oikealle paikalla*/
 .grid-kuva img {
     width: 100%;
     max-width: 300px; 
     height: auto;
     border: 40px solid rgb(105, 105, 105);  /*miksi ei toimi*/
 }
-
+/*jotta footer erottuu muusta*/
 footer {
     background-color: #333;
     color: white;
@@ -71,7 +66,7 @@ footer {
     justify-content: center;
     gap: 30px; 
 }
-
+/*erottaa icon ja iconit etta ne eivat ole saman laisia */
 .icon a {
     color: white;
     font-size: 40px;
@@ -81,19 +76,19 @@ footer {
 .icon a:hover {
     color: #c918f5; 
 }
-
+/*koko tietokoneelle*/
 @media (max-width: 1200px) {
     .grid-container {
         grid-template-columns: 1fr;
     }
 }
-
+/*koko padille */
 @media (max-width: 768px) {
     .grid-container {
         grid-template-columns: 1fr;
     }
 }
-
+/*koko puhelimelle*/
 @media (max-width: 480px) {
     .grid-container {
         grid-template-columns: 1fr;
